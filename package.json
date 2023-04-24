@@ -1,0 +1,19 @@
+{
+  "name": "projet-4-ocr",
+  "version": "1.0.0",
+  "description": "quatrième projet de la formation openclassroom intégrateur web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./assets/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alzcrew/Projet-4-OCR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alzcrew/Projet-4-OCR/issues"
+  },
+  "homepage": "https://github.com/Alzcrew/Projet-4-OCR#readme"
+}
