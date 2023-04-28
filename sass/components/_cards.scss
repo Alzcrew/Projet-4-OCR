@@ -1,0 +1,144 @@
+// carte section fonctionnement
+
+.fonctionnement__card {
+  width: 322px;
+  margin: 26px 20px 25px 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.fonctionnement__card__content {
+  display: flex;
+  align-items: center;
+}
+
+.fonctionnement__card__numero {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: -10px;
+  margin-top: 25px;
+  justify-content: center;
+  background: $couleur-primaire;
+  border-radius: 20px;
+}
+
+.fonctionnement__card__numero p {
+  padding-top: 3px;
+  color: #ffff;
+  font-size: 14px;
+}
+
+.fonctionnement__card__content i {
+  color: #7e7e7e;
+  padding: 25px 27px 28px 33px;
+}
+
+.fonctionnement__card__content p {
+  padding: 28px 38px 28px 0px;
+}
+
+.fonctionnement__card__content .fa-store {
+  color: $couleur-primaire;
+}
+
+// carte section "nos restaurants"
+
+.nos__restaurants__cards {
+  border-radius: 15px;
+}
+
+.nos__restaurants__cards a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 18px;
+  text-decoration: none;
+  background-color: #ffff;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.nos__restaurants__cards img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.nos__restaurants__card__nouveau {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 13px;
+  background-color: #99e2d0;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nos__restaurants__card__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nos__restaurants__card__txt__titre {
+  padding: 16px 13px 5px 13px;
+}
+
+.nos__restaurants__card__txt__sous__titre {
+  text-align: left;
+  padding: 0px 0px 12px 13px;
+}
+
+.nos__restaurants__card__content i {
+  padding-right: 25px;
+  padding-top: 32px;
+  color: #101010;
+}
+
+.nos__restaurants__card__icone__coeur {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nos__restaurants__card__icone__coeur i {
+  font-size: 1.6rem;
+  position: absolute;
+  margin-top: -15px;
+}
+
+.nos__restaurants__card__icone__coeur .icone__coeur--full {
+  color: transparent;
+  background-image: $bouton-bg;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.nos__restaurants__card__icone__coeur .icone__coeur--full:hover {
+  opacity: 1;
+}
+
+@media (min-width: 1160px) {
+  .fonctionnement__cards {
+    display: flex;
+  }
+
+  .nos__restaurants__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  margin-right: 160px;
+  }
+
+  .nos__restaurants__cards a {
+  width: 45%;
+  margin-top: 30px;
+  }
+
+
+  .nos__restaurants__card__nouveau {
+  margin-left: 24%;
+  }
+}

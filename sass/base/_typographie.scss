@@ -1,4 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
 
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Shrikhand', cursive;
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.titre-restaurant {
+  font-family: "Shrikhand", cursive;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header__home__localisation h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.reservation p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.fonctionnement__card__content__txt {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nos__restaurants__card__nouveau p {
+  font-size: 14px;
+  color: #008766;
+}
+
+.nos__restaurants__card__txt__titre {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+.nos__restaurants__card__txt__sous__titre {
+  font-size: 17px;
+  color: #000;
+  font-weight: 300;
+}
+
+.footer__titre {
+  color: #ffff;
+  font-family: "shrikhand", cursive;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.footer__colonne p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.footer__colonne i {
+  color: #ffff;
+}
+
+@media (min-width: 1160px) {
+  .headline__titre {
+    font-size: 40px;
+  }
+}

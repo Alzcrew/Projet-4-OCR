@@ -1,0 +1,61 @@
+// section réservation
+
+.main-container {
+  width: 100%;
+}
+
+.reservation {
+  padding-top: 35px;
+  background-color: #f6f6f6;
+}
+
+#headline {
+  margin-bottom: 20px;
+}
+
+.reservation h2 {
+  margin-bottom: 10px;
+}
+
+.reservation h2,
+p {
+  text-align: center;
+}
+
+.reservation a {
+  margin-bottom: 70px;
+}
+
+// section fonctionnement
+
+.fonctionnement {
+  margin: 48px 0px 26px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+// section restaurants
+
+.nos__restaurants {
+  background-color: #f6f6f6;
+  margin-top: 68px;
+  padding: 0px 17px;
+}
+
+.nos__restaurants__titre {
+  padding-top: 54px;
+}
+
+@media (min-width: 1160px) {
+  .headline__titre {
+    padding-bottom: 20px;
+  }
+
+  .fonctionnement {
+  margin-left: 180px;
+  }
+
+  .nos__restaurants {
+  padding-left: 180px;
+  }
+}
