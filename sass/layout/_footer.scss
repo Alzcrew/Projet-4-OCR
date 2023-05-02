@@ -18,3 +18,20 @@
 .footer__colonne i {
   padding-right: 11px;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    height: 114px;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    
+    .footer__titre {
+    order: 1;
+    margin-right: 50px;
+    margin-left: 30px;
+    }
+}
+
+

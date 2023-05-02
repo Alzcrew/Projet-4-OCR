@@ -46,6 +46,16 @@ p {
   padding-top: 54px;
 }
 
+@media (min-width: 768px) {
+.fonctionnement {
+margin-left: 47px;
+}
+
+.nos__restaurants__titre {
+  margin-left: 30px;
+  }
+}
+
 @media (min-width: 1160px) {
   .headline__titre {
     padding-bottom: 20px;
@@ -57,5 +67,9 @@ p {
 
   .nos__restaurants {
   padding-left: 180px;
+  }
+
+  .nos__restaurants__titre {
+  margin-left: 0px;
   }
 }

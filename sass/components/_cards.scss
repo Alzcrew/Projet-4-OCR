@@ -59,17 +59,24 @@
   box-sizing: border-box;
 }
 
-.nos__restaurants__cards img {
+.nos__restaurants__card .nos__restaurants__card__image {
+display: flex;
+justify-content: flex-end;
+}
+
+.nos__restaurants__card .nos__restaurants__card__image img {
+  border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 170px;
   object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
 }
 
 .nos__restaurants__card__nouveau {
+  display: flex;
+  align-items: center;
   position: absolute;
-  margin-left: 70%;
   margin-top: 13px;
+  margin-right: 15px;
   background-color: #99e2d0;
   padding: 8px 12px;
   border-radius: 3px;
@@ -120,9 +127,29 @@
   opacity: 1;
 }
 
+@media (min-width: 768px) {
+
+  .fonctionnement__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nos__restaurants__cards a {
+    width: 45%;
+    margin-top: 30px;
+    }
+    .nos__restaurants__cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    margin-left: 30px;
+    }
+}
+
 @media (min-width: 1160px) {
   .fonctionnement__cards {
     display: flex;
+    flex-wrap: nowrap;
   }
 
   .nos__restaurants__cards {
@@ -130,6 +157,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   margin-right: 160px;
+  margin-left: 0px;
   }
 
   .nos__restaurants__cards a {
@@ -139,6 +167,6 @@
 
 
   .nos__restaurants__card__nouveau {
-  margin-left: 24%;
+    margin-right: 20px;
   }
 }
