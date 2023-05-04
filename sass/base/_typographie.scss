@@ -7,9 +7,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.titre-restaurant {
+a {
+text-decoration: none;
+color: #000;
+}
+
+h1 {
   font-family: "Shrikhand", cursive;
   font-size: 28px;
+  font-weight: 400;
 }
 
 h2 {
@@ -55,6 +61,20 @@ h2 {
   margin: 50px 0px 12px 13px;
 }
 
+.menus__card__content__titre {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.menus__card__content__sous__titre {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.menus__card__content__prix {
+font-size: 15px;
+font-weight: 700;
+}
 
 
 .footer__titre {
