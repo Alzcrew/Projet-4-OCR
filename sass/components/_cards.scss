@@ -23,8 +23,9 @@
   border-radius: 20px;
 }
 
-.fonctionnement__card__numero p {
-  padding-top: 3px;
+.fonctionnement__card__n {
+  margin-left: 7px;
+ padding-top: 4px;
   color: #ffff;
   font-size: 14px;
 }
@@ -120,7 +121,7 @@ justify-content: flex-end;
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 
 .nos__restaurants__card__icone__coeur .icone__coeur--full:hover {
@@ -128,6 +129,18 @@ justify-content: flex-end;
 }
 
 // cards section menus
+
+
+@keyframes appear {
+  0% {
+  transform: translateY(50%);
+  opacity: 0;
+  }
+  100% {
+  transform: translateY(0);
+    opacity: 1;
+}
+  }
 
 .menus__cards {
   display: flex;
@@ -140,6 +153,23 @@ justify-content: flex-end;
   padding: 13px;
   margin:13px 13px 0px 13px;
   border-radius: 15px;
+  overflow: hidden;
+  
+  }
+
+  .menus__cards .animation__entrees {
+  animation: appear 1s;
+  animation-fill-mode: both;
+  }
+
+  .menus__cards .animation__plats {
+  animation: 1s appear 1s;
+  animation-fill-mode: both;
+  }
+
+  .menus__cards .animation__dessert {
+  animation: 1s appear 2s;
+  animation-fill-mode: both;
   }
 
   .menus__card__content {
@@ -156,8 +186,27 @@ justify-content: flex-end;
   }
 
   .menus__card__content__prix {
-  margin: 25px 10px 0px 0px;
+  margin-left: auto;
+  margin-top: 25px;
   }
+
+  .menus__card__content__check {
+    width: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: $couleur-tertiaire;
+  color: white;
+  border-radius: 0px 15px 15px 0px;
+  margin: -13px -72px -13px 10px;
+  transition: all 500ms;
+  }
+
+  .menus__item:hover .menus__card__content__check {
+  margin-right: -13px;
+  }
+
+
 
 @media (min-width: 768px) {
 
@@ -176,6 +225,10 @@ justify-content: flex-end;
       justify-content: space-between;
     margin-left: 30px;
     }
+
+    .menus__titre ,  .menus__cards {
+      padding: 0px 150px;
+      }
 }
 
 @media (min-width: 1160px) {
@@ -200,5 +253,9 @@ justify-content: flex-end;
 
   .nos__restaurants__card__nouveau {
     margin-right: 20px;
+  }
+
+  .menus__titre ,  .menus__cards {
+  padding: 0px 210px;
   }
 }

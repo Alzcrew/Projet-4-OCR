@@ -27,7 +27,27 @@
 padding: 17px 32px;
 }
 
+@media (min-width: 768px) {
+    .menu__container {
+        width: auto;
+        margin: 0px 30px;
+    }
+
+    .menu__container__titre {
+        display: flex;
+    justify-content: center;
+    }
+
+    .menu__icone__coeur {
+        margin: 40px;
+    }
+}
 
 
 
-
+@media (min-width: 1160px) {
+    .menu__container {
+        width: auto;
+    margin: 0px 192px;
+    }
+}
