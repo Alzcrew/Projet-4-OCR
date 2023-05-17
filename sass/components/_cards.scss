@@ -2,7 +2,7 @@
 
 .fonctionnement__carte {
   width: 335px;
-  margin: 26px 20px 25px 10px;
+  margin: 26px auto;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
 }
@@ -215,6 +215,10 @@ justify-content: flex-end;
     flex-wrap: wrap;
   }
 
+  .fonctionnement__carte {
+    margin: 26px 20px 25px 10px;
+  }
+
   .nos__restaurants__cartes a {
     width: 45%;
     margin-top: 30px;
@@ -249,6 +253,8 @@ justify-content: flex-end;
   width: 45%;
   margin-top: 30px;
   }
+
+
 
 
   .nos__restaurants__carte__nouveau {
