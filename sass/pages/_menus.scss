@@ -1,10 +1,10 @@
-.image__headline img {
+.image__titre img {
     height: 275px;
     width: 100%;
     object-fit: cover;
 }
 
-.menu__container {
+.menu__conteneur {
     background: #F7F7F7;
     position: relative;
     top: -55px;
@@ -29,12 +29,12 @@ padding: 17px 32px;
 }
 
 @media (min-width: 768px) {
-    .menu__container {
+    .menu__conteneur {
         width: auto;
         margin: 0px 30px;
     }
 
-    .menu__container__titre {
+    .menu__conteneur__titre {
         display: flex;
     justify-content: center;
     }
@@ -47,7 +47,7 @@ padding: 17px 32px;
 
 
 @media (min-width: 1160px) {
-    .menu__container {
+    .menu__conteneur {
         width: auto;
     margin: 0px 192px;
     }

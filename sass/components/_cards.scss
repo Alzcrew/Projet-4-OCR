@@ -1,18 +1,18 @@
 // carte section fonctionnement
 
-.fonctionnement__card {
-  width: 322px;
+.fonctionnement__carte {
+  width: 335px;
   margin: 26px 20px 25px 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
 }
 
-.fonctionnement__card__content {
+.fonctionnement__carte__contenu {
   display: flex;
   align-items: center;
 }
 
-.fonctionnement__card__numero {
+.fonctionnement__carte__numero {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -23,33 +23,33 @@
   border-radius: 20px;
 }
 
-.fonctionnement__card__n {
+.fonctionnement__carte__n {
   margin-left: 7px;
  padding-top: 4px;
   color: #ffff;
   font-size: 14px;
 }
 
-.fonctionnement__card__content i {
+.fonctionnement__carte__contenu i {
   color: #7e7e7e;
   padding: 25px 27px 28px 33px;
 }
 
-.fonctionnement__card__content p {
+.fonctionnement__carte__contenu p {
   padding: 28px 38px 28px 0px;
 }
 
-.fonctionnement__card__content .fa-store {
+.fonctionnement__carte__contenu .fa-store {
   color: $couleur-primaire;
 }
 
 // carte section "nos restaurants"
 
-.nos__restaurants__cards {
+.nos__restaurants__cartes {
   border-radius: 15px;
 }
 
-.nos__restaurants__cards a {
+.nos__restaurants__cartes a {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -60,19 +60,19 @@
   box-sizing: border-box;
 }
 
-.nos__restaurants__card .nos__restaurants__card__image {
+.nos__restaurants__carte .nos__restaurants__carte__image {
 display: flex;
 justify-content: flex-end;
 }
 
-.nos__restaurants__card .nos__restaurants__card__image img {
+.nos__restaurants__carte .nos__restaurants__carte__image img {
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 170px;
   object-fit: cover;
 }
 
-.nos__restaurants__card__nouveau {
+.nos__restaurants__carte__nouveau {
   display: flex;
   align-items: center;
   position: absolute;
@@ -83,39 +83,39 @@ justify-content: flex-end;
   border-radius: 3px;
 }
 
-.nos__restaurants__card__content {
+.nos__restaurants__carte__content {
   display: flex;
   justify-content: space-between;
 }
 
-.nos__restaurants__card__txt__titre {
+.nos__restaurants__carte__txt__titre {
   padding: 16px 13px 5px 13px;
 }
 
-.nos__restaurants__card__txt__sous__titre {
+.nos__restaurants__carte__txt__sous__titre {
   text-align: left;
   padding: 0px 0px 12px 13px;
 }
 
-.nos__restaurants__card__content i {
+.nos__restaurants__carte__content i {
   padding-right: 25px;
   padding-top: 32px;
   color: #101010;
 }
 
-.nos__restaurants__card__icone__coeur {
+.nos__restaurants__carte__icone__coeur {
   width: 50%;
   display: flex;
   justify-content: flex-end;
 }
 
-.nos__restaurants__card__icone__coeur i {
+.nos__restaurants__carte__icone__coeur i {
   font-size: 1.6rem;
   position: absolute;
   margin-top: -15px;
 }
 
-.nos__restaurants__card__icone__coeur .icone__coeur--full {
+.nos__restaurants__carte__icone__coeur .icone__coeur--full {
   color: transparent;
   background-image: $bouton-bg;
   background-clip: text;
@@ -124,7 +124,7 @@ justify-content: flex-end;
   transition: all 400ms;
 }
 
-.nos__restaurants__card__icone__coeur .icone__coeur--full:hover {
+.nos__restaurants__carte__icone__coeur .icone__coeur--full:hover {
   opacity: 1;
 }
 
@@ -142,12 +142,12 @@ justify-content: flex-end;
 }
   }
 
-.menus__cards {
+.menus__cartes {
   display: flex;
   flex-direction: column;
   }
   
-  .menus__cards a {
+  .menus__cartes a {
     background: #FFFFFF;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
   padding: 13px;
@@ -157,40 +157,40 @@ justify-content: flex-end;
   
   }
 
-  .menus__cards .animation__entrees {
+  .menus__cartes .animation__entrees {
   animation: appear 1s;
   animation-fill-mode: both;
   }
 
-  .menus__cards .animation__plats {
+  .menus__cartes .animation__plats {
   animation: 1s appear 1s;
   animation-fill-mode: both;
   }
 
-  .menus__cards .animation__dessert {
+  .menus__cartes .animation__dessert {
   animation: 1s appear 2s;
   animation-fill-mode: both;
   }
 
-  .menus__card__content {
+  .menus__carte__contenu {
   display: flex;
   justify-content: space-between;
   }
 
-  .menus__card__content__titre {
+  .menus__carte__contenu__titre {
   margin-bottom: 5px;
   }
 
-  .menus__card__content__sous__titre {
+  .menus__carte__contenu__sous__titre {
   text-align: left;
   }
 
-  .menus__card__content__prix {
+  .menus__carte__contenu__prix {
   margin-left: auto;
   margin-top: 25px;
   }
 
-  .menus__card__content__check {
+  .menus__carte__contenu__verif {
     width: 59px;
     display: flex;
     align-items: center;
@@ -202,7 +202,7 @@ justify-content: flex-end;
   transition: all 500ms;
   }
 
-  .menus__item:hover .menus__card__content__check {
+  .menus__article:hover .menus__carte__contenu__verif {
   margin-right: -13px;
   }
 
@@ -210,34 +210,34 @@ justify-content: flex-end;
 
 @media (min-width: 768px) {
 
-  .fonctionnement__cards {
+  .fonctionnement__cartes {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .nos__restaurants__cards a {
+  .nos__restaurants__cartes a {
     width: 45%;
     margin-top: 30px;
     }
-    .nos__restaurants__cards {
+    .nos__restaurants__cartes {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     margin-left: 30px;
     }
 
-    .menus__titre ,  .menus__cards {
+    .menus__titre ,  .menus__cartes {
       padding: 0px 150px;
       }
 }
 
 @media (min-width: 1160px) {
-  .fonctionnement__cards {
+  .fonctionnement__cartes {
     display: flex;
     flex-wrap: nowrap;
   }
 
-  .nos__restaurants__cards {
+  .nos__restaurants__cartes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -245,17 +245,17 @@ justify-content: flex-end;
   margin-left: 0px;
   }
 
-  .nos__restaurants__cards a {
+  .nos__restaurants__cartes a {
   width: 45%;
   margin-top: 30px;
   }
 
 
-  .nos__restaurants__card__nouveau {
+  .nos__restaurants__carte__nouveau {
     margin-right: 20px;
   }
 
-  .menus__titre ,  .menus__cards {
+  .menus__titre ,  .menus__cartes {
   padding: 0px 210px;
   }
 }
