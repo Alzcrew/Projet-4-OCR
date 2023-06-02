@@ -1,24 +1,15 @@
-<<<<<<< Updated upstream
-.image__titre img {
-=======
 .main {
-background: #F6F6F6;
+background: $couleur-background;
 }
 
-.image__headline img {
->>>>>>> Stashed changes
+.image__titre img {
     height: 275px;
     width: 100%;
     object-fit: cover;
 }
 
-<<<<<<< Updated upstream
 .menu__conteneur {
-    background: #F7F7F7;
-=======
-.menu__container {
-    background: #F6F6F6;
->>>>>>> Stashed changes
+    background: $couleur-background;
     position: relative;
     top: -55px;
     padding-bottom: 40px;
@@ -27,12 +18,11 @@ background: #F6F6F6;
 }
 
 .menu__icone__coeur {
-    width: auto;
-    margin:-36px 30px 0px 0px;
+    margin-right: 41px;
 }
 
 .menus__titre__bordure {
-    border: 2px solid #99E2D0;
+    border: 2px solid $couleur-tertiaire;
     width: 40px;
     margin: 12px;
 }
@@ -49,11 +39,12 @@ padding: 17px 32px;
 
     .menu__conteneur__titre {
         display: flex;
-    justify-content: center;
+        justify-content: center;
     }
 
     .menu__icone__coeur {
-        margin: 40px;
+        margin-top: 74px;
+        margin-left: 74px;
     }
 }
 
