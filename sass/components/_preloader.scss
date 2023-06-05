@@ -44,16 +44,6 @@
   
 }
 
-
-@keyframes itemAppear {
-  0% {
-    transform: scale(0)
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 @keyframes loader {
   100% {
     opacity: 0;
@@ -74,9 +64,6 @@
   100% {
     transform: translateY(0);
   }
-  // 0% {
-  //   transform: translateY(0);
-  // }
 }
 
 
